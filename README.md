@@ -28,7 +28,7 @@ Once the bot was working, my journey began. I have split up the different parts 
 ## Serial connection via ESPHOME
 The suspected 3.3v pin is 3.3v and I have been able to keep an esp32cam connected and running the configuration at [esphome.yaml](./esphome.yaml)
 
-**Note: I am still on version 3.2.0 since I havn't gotten my USB OTG cable, will be getting one soon so I can make sure this works on the latest... sorry about this** 
+The script is currently up to date and should be used on a robot with firmware `4.5.3` 
 
 Currently this is mainly a POC but I am working on making it an fully working controller for the robot. Currently the lamdba function is probably still very inefficient and needs cleanup after the LLM changed it.
 
